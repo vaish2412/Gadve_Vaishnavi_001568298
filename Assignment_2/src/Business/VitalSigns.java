@@ -4,6 +4,8 @@
  //* and open the template in the editor.
  
 package Business;
+import java.time.Instant;
+import java.util.Date;
 import java.util.Scanner;
 
 
@@ -20,6 +22,7 @@ public class VitalSigns {
     private float weightInKg;
     private float weightInPounds;
     private Boolean patStatus;
+    private Instant date;
     
     
     public String getAgeGroup() {
@@ -77,6 +80,10 @@ public class VitalSigns {
     public void setPatStatus(Boolean patStatus) {
         this.patStatus = patStatus;
     }
-    
+  public Instant getDate() {
+        Date d = new Date();
+      return d.toInstant();
+       
+    }   
 
 }

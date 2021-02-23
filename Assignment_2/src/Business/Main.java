@@ -225,7 +225,8 @@ public class Main {
                 System.out.println("Patient's Heart Rate: "+v.getHeartRate());
                 System.out.println("Patients Blood Pressure: "+v.getBp());
                 System.out.println("Patient's Weight(in Kgs): "+v.getWeightInKg());
-                System.out.println("Patients Weight(in Pounds): "+v.getWeightInPounds()); 
+                System.out.println("Patients Weight(in Pounds): "+v.getWeightInPounds());
+                System.out.println("Current Time: "+v.getDate()); 
                 System.out.println("*********************************************************************");
             }
         }else if (userInput.equalsIgnoreCase("Exit")){
