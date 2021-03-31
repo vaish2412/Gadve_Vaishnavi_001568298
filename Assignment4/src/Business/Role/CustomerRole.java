@@ -1,4 +1,4 @@
-/*
+/*done
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
@@ -19,7 +19,7 @@ public class CustomerRole extends Role{
 
     
     public JPanel createWorkArea(JPanel userProcessContainer, UserAccount account, EcoSystem business) {
-        return new CustomerAreaJPanel(userProcessContainer, account);
+        return new CustomerAreaJPanel(userProcessContainer, account, business);
     }
     
     

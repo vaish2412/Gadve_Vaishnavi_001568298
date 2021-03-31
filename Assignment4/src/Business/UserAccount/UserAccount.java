@@ -1,4 +1,4 @@
-/*
+/*done
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
@@ -13,12 +13,21 @@ import Business.WorkQueue.WorkQueue;
  * @author raunak
  */
 public class UserAccount {
-    
+    private String name;
     private String username;
     private String password;
     private Employee employee;
     private Role role;
     private WorkQueue workQueue;
+    
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+   
 
     public UserAccount() {
         workQueue = new WorkQueue();
