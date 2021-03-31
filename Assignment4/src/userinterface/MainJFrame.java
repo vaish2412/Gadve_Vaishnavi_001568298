@@ -123,6 +123,12 @@ public class MainJFrame extends javax.swing.JFrame {
 
     private void loginJButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_loginJButtonActionPerformed
         // Get user name
+        UserAccount useraccount = system.getUserAccountDirectory().authenticateUser(userNameJTextField.getText(), passwordField.getText());
+        
+        CardLayout crdLyt = (CardLayout) container.getLayout();
+        container.add("Login", useraccount.getRole().createWorkArea(container, useraccount, system));
+        crdLyt.next(container);
+        logoutJButton.setEnabled(true);                                    
        
     }//GEN-LAST:event_loginJButtonActionPerformed
 

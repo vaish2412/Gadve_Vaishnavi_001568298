@@ -34,6 +34,10 @@ public class CustomerAreaJPanel extends javax.swing.JPanel {
         //valueLabel.setText(enterprise.getName());
         populateRequestTable();
     }
+
+    public CustomerAreaJPanel(JPanel userProcessContainer, UserAccount account, EcoSystem business) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     public void populateRequestTable(){
         
