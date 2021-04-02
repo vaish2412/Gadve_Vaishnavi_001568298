@@ -74,6 +74,10 @@ public class ManageDeliveryMan extends javax.swing.JPanel {
         btnRegisterDeliveryMan = new javax.swing.JButton();
         btnBack = new javax.swing.JButton();
 
+        setBackground(new java.awt.Color(102, 0, 102));
+
+        jPanel1.setBackground(new java.awt.Color(102, 0, 102));
+
         tblDeliveryMan.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 

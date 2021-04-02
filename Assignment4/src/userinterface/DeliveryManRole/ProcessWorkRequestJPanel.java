@@ -50,6 +50,8 @@ public class ProcessWorkRequestJPanel extends javax.swing.JPanel {
         txtStatus = new javax.swing.JTextField();
         backJButton = new javax.swing.JButton();
 
+        jPanel1.setBackground(new java.awt.Color(102, 0, 102));
+
         submitJButton.setText("Submit Result");
         submitJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

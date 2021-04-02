@@ -68,7 +68,7 @@ public class ManageRestroInfo extends javax.swing.JPanel {
         txtUserName = new javax.swing.JTextField();
         btnBack = new javax.swing.JButton();
 
-        jPanel1.setBackground(new java.awt.Color(204, 204, 204));
+        jPanel1.setBackground(new java.awt.Color(102, 0, 102));
 
         jLabel1.setText("Restaurant Name:");
 

@@ -73,6 +73,8 @@ public void populateCustomerTable(){
         btnCreateCustomer = new javax.swing.JButton();
         btnBack = new javax.swing.JButton();
 
+        jPanel1.setBackground(new java.awt.Color(102, 0, 102));
+
         tblCustomers.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 

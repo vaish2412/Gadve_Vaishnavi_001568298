@@ -79,7 +79,7 @@ public class ManageOrders extends javax.swing.JPanel {
         btnViewOrder = new javax.swing.JButton();
         btnRefresh = new javax.swing.JButton();
 
-        jPanel1.setBackground(new java.awt.Color(204, 204, 204));
+        jPanel1.setBackground(new java.awt.Color(102, 0, 102));
 
         tblOrderDetail.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {

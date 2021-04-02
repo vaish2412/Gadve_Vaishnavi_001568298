@@ -75,6 +75,7 @@ public class ManageRestaurants extends javax.swing.JPanel {
         btnRestrauntAdmin = new javax.swing.JButton();
         btnBack = new javax.swing.JButton();
 
+        jPanel1.setBackground(new java.awt.Color(102, 0, 102));
         jPanel1.setForeground(new java.awt.Color(204, 204, 255));
 
         tblRestrauntAdmin.setModel(new javax.swing.table.DefaultTableModel(
